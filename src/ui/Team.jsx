@@ -65,7 +65,7 @@ function Team() {
               Karl is the embodiment of a tech-savvy visionary with notable
               achievements. Passionate about harnessing technology to effect
               positive societal change, he also delves deep into the world of
-              public policy. When he's not shaping the future, Carl is likely
+              public policy. When he's not shaping the future, Karl is likely
               immersed in a book, boasting a collection that might just outshine
               yours.
             </div>
@@ -88,7 +88,7 @@ function Team() {
         <div className="member-1 w-[20%] h-[50vh] relative group hover:bg-transparent rounded-lg overflow-hidden border border-transparent hover:border-blue-500">
           <div className="w-full h-full overflow-hidden">
             <img
-              src="Akpene.jpg"
+              src="tunga-copy.jpg"
               alt="Akpene"
               className="transition-transform duration-500 transform group-hover:scale-110 w-full h-full object-cover object-top"
             />
