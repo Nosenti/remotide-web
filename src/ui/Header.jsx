@@ -2,12 +2,18 @@ import Button from "./Button";
 
 function Header() {
   return (
-    <div className="flex justify-between ml-10 mt-4 mx-12 pl-4">
+    <div className="flex justify-between items-center p-4 md:p-6 lg:p-8">
       <div className="left flex items-center">
-        <img className="h-7 w-7" src="logo-1.svg" alt="logo" />
-        <span className="ml-2 text-greyLogo text-2xl font-bold">Remotide</span>
+        <img
+          className="h-7 w-7 md:h-8 md:w-8 lg:h-10 lg:w-10"
+          src="logo-1.svg"
+          alt="logo"
+        />
+        <span className="ml-2 text-greyLogo text-xl md:text-2xl lg:text-3xl font-bold">
+          Remotide
+        </span>
       </div>
-      <div className="right mr-10">
+      <div className="right">
         <Button>Get Started</Button>
       </div>
     </div>

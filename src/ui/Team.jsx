@@ -3,14 +3,14 @@ function Team() {
   return (
     <div className="my-4 mx-4">
       <div className="text-center text-2xl font-bold">Team</div>
-      <div className="text-center py-4 w-[50%] flex m-auto mb-4">
+      <div className="text-center py-4 w-full md:w-3/4 lg:w-1/2 flex m-auto mb-4">
         Meet the dynamic team behind Remotide. Each member brings a unique blend
         of expertise, passion, and vision to our mission, ensuring we bridge the
         gap between African talent and global opportunities. Dive in to learn
         more about the minds powering our platform
       </div>
-      <div className="team-members flex justify-evenly">
-        <div className="member-1 w-[20%] h-[50vh] relative group hover:bg-transparent rounded-lg overflow-hidden border border-transparent hover:border-blue-500">
+      <div className="team-members flex flex-wrap justify-center md:justify-between">
+        <div className="member-1 w-full md:w-[45%] lg:w-[20%] h-[50vh] my-4 relative group hover:bg-transparent rounded-lg overflow-hidden border border-transparent hover:border-blue-500">
           <div className="w-full h-full overflow-hidden">
             <img
               src="Akpene.jpg"
@@ -47,7 +47,7 @@ function Team() {
             <div>Business</div>
           </div>
         </div>
-        <div className="member-2 w-[20%] h-[50vh] relative group hover:bg-transparent rounded-lg overflow-hidden border border-transparent hover:border-blue-500">
+        <div className="member-1 w-full md:w-[45%] lg:w-[20%] h-[50vh] my-4 relative group hover:bg-transparent rounded-lg overflow-hidden border border-transparent hover:border-blue-500">
           <div className="w-full h-full overflow-hidden">
             <img
               src="carl.jpg"
@@ -85,7 +85,7 @@ function Team() {
             <div>Data & Research</div>
           </div>
         </div>
-        <div className="member-1 w-[20%] h-[50vh] relative group hover:bg-transparent rounded-lg overflow-hidden border border-transparent hover:border-blue-500">
+        <div className="member-1 w-full md:w-[45%] lg:w-[20%] h-[50vh] my-4 relative group hover:bg-transparent rounded-lg overflow-hidden border border-transparent hover:border-blue-500">
           <div className="w-full h-full overflow-hidden">
             <img
               src="tunga-copy.jpg"
@@ -121,7 +121,7 @@ function Team() {
             <div>Relations and Outreach</div>
           </div>
         </div>
-        <div className="member-1 w-[20%] h-[50vh] relative group hover:bg-transparent rounded-lg overflow-hidden border border-transparent hover:border-blue-500">
+        <div className="member-1 w-full md:w-[45%] lg:w-[20%] h-[50vh] my-4 relative group hover:bg-transparent rounded-lg overflow-hidden border border-transparent hover:border-blue-500">
           <div className="w-full h-full overflow-hidden">
             <img
               src="innocent-suit-copy1.jpg"
