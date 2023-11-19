@@ -4,6 +4,7 @@ import Team from "../ui/Team";
 import HowItWorks from "../ui/HowItWorks";
 import HowItWorks2 from "../ui/HowItWorks2";
 import Header from "../ui/Header";
+import Footer from "../ui/Footer";
 
 function Home() {
   return (
@@ -69,6 +70,9 @@ function Home() {
       </div>
       <div className="mb-4">
         <Team />
+      </div>
+      <div>
+      <Footer />
       </div>
     </>
   );
