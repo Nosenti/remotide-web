@@ -1,4 +1,4 @@
-import Button from "./Button";
+//import Button from "./Button";
 
 function Header() {
   return (
@@ -13,8 +13,15 @@ function Header() {
           Remotide
         </span>
       </div>
-      <div className="right">
-        <Button>Get Started</Button>
+      <div className="right bg-colorBrand500 py-1">
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSc05qnYhskghatwIDGm_iZy41e7oRoJofi8zkJh1fhv00u-Eg/viewform"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block px-6 py-2  text-white font-medium text-xs leading-tight uppercase rounded hover:bg-colorBrand700 hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+        >
+          Signup for Beta
+        </a>
       </div>
     </div>
   );

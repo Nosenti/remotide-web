@@ -1,10 +1,16 @@
 /* eslint-disable react/no-unescaped-entities */
 import Faq from "../ui/Faq";
 import Team from "../ui/Team";
+import HowItWorks from "../ui/HowItWorks";
+import HowItWorks2 from "../ui/HowItWorks2";
+import Header from "../ui/Header";
 
 function Home() {
   return (
     <>
+      <div className="pl-8">
+        <Header />
+      </div>
       <div className="h-screen flex flex-col md:flex-row items-center px-4 md:px-12">
         <div className="mb-8 md:mb-0 w-full md:w-1/2 pr-0 md:pr-12">
           <div className="tagline text-2xl md:text-4xl font-bold mb-4">
@@ -50,6 +56,13 @@ function Home() {
             />
           </div>
         </div>
+      </div>
+      
+      <div>
+        <HowItWorks />
+      </div>
+      <div>
+        <HowItWorks2 />
       </div>
       <div>
         <Faq />

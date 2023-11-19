@@ -4,6 +4,9 @@ import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import Home from "./pages/Home";
 import Talent from "./pages/Talent";
 import Company from "./pages/Company";
+import PageNotFound from "./pages/PageNotFound";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
 import AppLayout from "./ui/AppLayout";
 import { Toaster } from "react-hot-toast";
 
@@ -23,10 +26,15 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route element={<AppLayout />}>
-              <Route index element={<Home />} />
               <Route path="talent" element={<Talent />} />
               <Route path="company" element={<Company />} />
+              <Route path="settings" element={<Company />} />
+
+              <Route path="*" element={<PageNotFound />} />
             </Route>
+            <Route index element={<Home />} />
+            <Route path="login" element={<Login />} />
+            <Route path="register" element={<Signup />} />
           </Routes>
         </BrowserRouter>
         <Toaster
