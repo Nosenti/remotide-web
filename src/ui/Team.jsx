@@ -44,7 +44,7 @@ function Team() {
           {/* <!-- Name and Title, initially shown, hidden on hover --> */}
           <div className="absolute bottom-0 left-0 w-full h-[20%] bg-colorBrand700 text-white flex flex-col justify-center items-center group-hover:hidden z-20">
             <div className="font-bold">Akpene Diata Hoggar</div>
-            <div>Business</div>
+            <div>CEO</div>
           </div>
         </div>
         <div className="member-1 w-full md:w-[45%] lg:w-[20%] h-[50vh] my-4 relative group hover:bg-transparent rounded-lg overflow-hidden border border-transparent hover:border-blue-500">
@@ -82,7 +82,7 @@ function Team() {
           {/* <!-- Name and Title, initially shown, hidden on hover --> */}
           <div className="absolute bottom-0 left-0 w-full h-[20%] bg-colorBrand700 text-white flex flex-col justify-center items-center group-hover:hidden z-20">
             <div className="font-bold">Karl Lemfon</div>
-            <div>Data & Research</div>
+            <div>CMO</div>
           </div>
         </div>
         <div className="member-1 w-full md:w-[45%] lg:w-[20%] h-[50vh] my-4 relative group hover:bg-transparent rounded-lg overflow-hidden border border-transparent hover:border-blue-500">
@@ -118,7 +118,7 @@ function Team() {
           {/* <!-- Name and Title, initially shown, hidden on hover --> */}
           <div className="absolute bottom-0 left-0 w-full h-[20%] bg-colorBrand700 text-white flex flex-col justify-center items-center group-hover:hidden z-20">
             <div className="font-bold">Tunga Tessema</div>
-            <div>Relations and Outreach</div>
+            <div>COO</div>
           </div>
         </div>
         <div className="member-1 w-full md:w-[45%] lg:w-[20%] h-[50vh] my-4 relative group hover:bg-transparent rounded-lg overflow-hidden border border-transparent hover:border-blue-500">
@@ -155,7 +155,7 @@ function Team() {
           {/* <!-- Name and Title, initially shown, hidden on hover --> */}
           <div className="absolute bottom-0 left-0 w-full h-[20%] bg-colorBrand700 text-white flex flex-col justify-center items-center group-hover:hidden z-20">
             <div className="font-bold">Innocent Ingabire</div>
-            <div>Product</div>
+            <div>CTO</div>
           </div>
         </div>
       </div>
