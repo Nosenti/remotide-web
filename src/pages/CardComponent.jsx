@@ -15,7 +15,7 @@ const CardComponent = ({ imageSrc, index, roles, buttonText, buttonLink }) => {
               <p className="text-sm"><span className="font-bold">Education:</span> Master's Degree</p>
             </div>
             <div className="card-actions mt-4 w-full">
-              <a href={buttonLink} target="_blank" rel="noopener noreferrer" className="btn btn-info w-full">{buttonText}</a>
+              <a href={buttonLink} target="_blank" rel="noopener noreferrer" className="btn w-full bg-colorBrand500 hover:bg-colorBrand700 text-white">{buttonText}</a>
             </div>
           </div>
         </div>
