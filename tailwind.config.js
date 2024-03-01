@@ -20,6 +20,16 @@ export default {
       fontFamily: {
         sans: ["Montserrat", ...defaultTheme.fontFamily.sans],
       },
+      animation: {
+        rotate: 'rotate 1.5s linear infinite',
+      },
+      keyframes: {
+        rotate: {
+          to: {
+            transform: 'rotate(1turn)',
+          },
+        },
+      },
     },
   },
   plugins: [require("daisyui")],

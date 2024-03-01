@@ -8,6 +8,7 @@ import PageNotFound from './pages/PageNotFound';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import AppLayout from './ui/AppLayout';
+import { Analytics } from "@vercel/analytics/react"
 import { Toaster } from 'react-hot-toast';
 
 const queryClient = new QueryClient({
@@ -20,8 +21,9 @@ const queryClient = new QueryClient({
 
 function App() {
   return (
-    <>
+    <> 
       <QueryClientProvider client={queryClient}>
+        <Analytics/>
         <ReactQueryDevtools initialIsOpen={false} />
         <BrowserRouter>
           <Routes>

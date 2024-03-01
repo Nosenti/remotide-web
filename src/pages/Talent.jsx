@@ -5,6 +5,7 @@ import CardComponent from './CardComponent.jsx';
 import './App.css';
 import Modal from '../ui/Modal.jsx';
 import { toast } from "react-hot-toast";
+import Spinner from '../ui/Spinner.jsx';
 
 const YOUR_SECRET_API_TOKEN =
   'patJ4YpILwTPFbyF6.751540e7d4a42bafa283f2f44ebc162f08bb736a87f6f1f8dbec9af5b7257040';
@@ -89,7 +90,7 @@ function Talent() {
   const closeModal = () => setIsModalOpen(false);
 
   if (isLoading) {
-    return <p>Loading...</p>;
+    return <div className='flex justify-center align-center mb-6 mt-6'><Spinner/></div>
   }
 
   if (error) {
