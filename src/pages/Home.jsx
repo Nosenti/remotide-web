@@ -1,32 +1,40 @@
 /* eslint-disable react/no-unescaped-entities */
-import Faq from "../ui/Faq";
-import Team from "../ui/Team";
-import HowItWorks from "../ui/HowItWorks";
-import HowItWorks2 from "../ui/HowItWorks2";
-import Header from "../ui/Header";
-import Footer from "../ui/Footer";
+import Faq from '../ui/Faq';
+import Team from '../ui/Team';
+import HowItWorks from '../ui/HowItWorks';
+import HowItWorks2 from '../ui/HowItWorks2';
+import Header from '../ui/Header';
+import Footer from '../ui/Footer';
+import Solution from '../ui/Solution';
+import Offer from '../ui/Offer';
 
 function Home() {
   return (
     <>
-      <div className="pl-8">
+      <div className='pl-8'>
         <Header />
       </div>
-      <div className="h-screen flex flex-col md:flex-row items-center px-4 md:px-12">
-        <div className="mb-8 md:mb-0 w-full md:w-1/2 pr-0 md:pr-12">
-          <div className="tagline text-2xl md:text-4xl font-bold mb-4">
-            Powering the Global Workforce with Africa's best
+      <div className='h-screen flex flex-col md:flex-row items-center px-4 md:px-12'>
+        <div className='mb-8 md:mb-0 w-full md:w-1/2 pr-0 md:pr-12'>
+          <div className='tagline text-2xl md:text-4xl font-bold mb-4'>
+            Build Your Global Team, Seamlessly.
           </div>
-          <div className="description mb-4">
-            <p>
-              We're more than just a job-matching platform. We champion a future
-              where technology meets sustainable development. Whether you're a
-              professional eyeing international prospects or a company hunting
-              for elite talent, Remotide erases borders, opening a realm of
-              boundless opportunities. Dive into the future with Remotide.
+          <div className='text-md md:text-2xl font-bold mb-4 text-colorBrand500'>
+            Access top talent, manage projects with experts, and simplify
+            international hiring—all in one place.
+          </div>
+          <div className='description mb-4'>
+            <p className='mb-2'>
+              Building a global team can be complex and time-consuming. Finding
+              the right talent, managing remote workers, and navigating
+              international compliance can slow you down.
+            </p>
+            <p className='text-gray-500 font-bold'>
+              We offer a comprehensive suite of services to streamline your
+              global team building and management:
             </p>
           </div>
-          <div className="subscribe">
+          {/* <div className="subscribe">
             <div className="sub-title text-sm md:text-md font-black">
               <a
                 className="text-colorBrand700"
@@ -36,43 +44,53 @@ function Home() {
               </a>{" "}
               to get notified when we launch 🎉
             </div>
-          </div>
+          </div> */}
         </div>
-        <div className="w-full md:w-1/2 overflow-hidden">
-          <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 gap-4">
+        <div className='w-full md:w-1/2 overflow-hidden'>
+          <div className='grid grid-cols-1 md:grid-cols-2 grid-rows-2 gap-4'>
             <img
-              src="Akpene.jpg"
-              alt="Picture 1"
-              className="col-span-1 md:col-span-1 md:row-span-2 h-full w-full object-cover"
+              src='Akpene.jpg'
+              alt='Picture 1'
+              className='col-span-1 md:col-span-1 md:row-span-2 h-full w-full object-cover'
             />
             <img
-              src="grid-1.jpg"
-              alt="Description 2"
-              className="col-span-1 h-full w-full object-cover"
+              src='grid-1.jpg'
+              alt='Description 2'
+              className='col-span-1 h-full w-full object-cover'
             />
             <img
-              src="grid-3.jpg"
-              alt="Description 3"
-              className="col-span-1 h-full w-full object-cover"
+              src='grid-3.jpg'
+              alt='Description 3'
+              className='col-span-1 h-full w-full object-cover'
             />
           </div>
         </div>
       </div>
-      
       <div>
+        <Solution />
+      </div>
+      {/* <div>
+        Ready to build your dream team? Contact us today for a free consultation
+        and learn how we can help you achieve your global business goals.
+      </div> */}
+      <div>
+        <Offer/>
+      </div>
+
+      {/* <div>
         <HowItWorks />
-      </div>
-      <div>
+      </div> */}
+      {/* <div>
         <HowItWorks2 />
-      </div>
+      </div> */}
       <div>
         <Faq />
       </div>
-      <div className="mb-4">
+      <div className='mb-4'>
         <Team />
       </div>
       <div>
-      <Footer />
+        <Footer />
       </div>
     </>
   );
