@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import FormfacadeEmbed from '@formfacade/embed-react';
 import Faq from '../ui/Faq';
 import Team from '../ui/Team';
 import HowItWorks from '../ui/HowItWorks';
@@ -7,6 +8,7 @@ import Header from '../ui/Header';
 import Footer from '../ui/Footer';
 import Solution from '../ui/Solution';
 import Offer from '../ui/Offer';
+import { toast } from "react-hot-toast";
 
 function Home() {
   return (
@@ -69,12 +71,18 @@ function Home() {
       <div>
         <Solution />
       </div>
-      {/* <div>
-        Ready to build your dream team? Contact us today for a free consultation
-        and learn how we can help you achieve your global business goals.
-      </div> */}
+      <div className='flex flex-col align-center justify-center'>
+        <h3 className='flex justify-center text-xl font-bold text-colorBrand500'>Ready to build your dream team?</h3>
+        <div>
+          <FormfacadeEmbed
+            formFacadeURL='https://formfacade.com/include/100919847410360957339/form/1FAIpQLSdIb2jVzJ4ycVecRl8tnSW2DF3Ksf4ZgNVp93UwcT-vGXxB8g/classic.js/?div=ff-compose'
+            onSubmitForm={() => toast.success("submitted")}
+          />
+        </div>
+        
+      </div>
       <div>
-        <Offer/>
+        <Offer />
       </div>
 
       {/* <div>

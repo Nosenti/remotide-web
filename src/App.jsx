@@ -7,6 +7,7 @@ import Company from './pages/Company';
 import PageNotFound from './pages/PageNotFound';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
+import Product from './pages/Product';
 import AppLayout from './ui/AppLayout';
 import { Analytics } from "@vercel/analytics/react"
 import { Toaster } from 'react-hot-toast';
@@ -31,6 +32,7 @@ function App() {
               <Route path='talent' element={<Talent />} />
               <Route path='company' element={<Company />} />
               <Route path='settings' element={<Company />} />
+              <Route path='product' element={<Product />} />
 
               <Route path='*' element={<PageNotFound />} />
             </Route>
