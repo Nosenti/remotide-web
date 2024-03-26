@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 
 const Offer = () => {
   return (
@@ -34,7 +34,7 @@ const Offer = () => {
                 height='24'
               />
             </svg>
-            <span className='relative text-colorBrand500'>2 WEEKS OFFER:</span>
+            <span className='relative text-colorBrand500'></span>
           </span>{' '}
           Gain access to a curated pool of qualified candidates, ready to join
           your global team.
@@ -83,7 +83,7 @@ const Offer = () => {
           </div>
         </div>
       </div>
-      <div className=' flex justify-center flex-col align-center'>
+      {/* <div className=' flex justify-center flex-col align-center'>
         <p className='flex mb-4 justify-center'>
             <p><strong>Start building your dream team today! </strong> </p>
             <p className='ml-1'>
@@ -102,7 +102,7 @@ const Offer = () => {
             Talent Board
           </Link>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

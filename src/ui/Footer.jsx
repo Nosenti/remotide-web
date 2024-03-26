@@ -26,7 +26,7 @@ function Footer() {
       <hr className="my-4" />
       <div className="lower text-center">
         <p className="text-greyLogo font-semibold text-sm">
-          &copy; <span id="copyright-year"></span> 2023 Remotide. All rights
+          &copy; <span id="copyright-year"></span> {new Date().getFullYear()} Remotide. All rights
           reserved.
         </p>
       </div>

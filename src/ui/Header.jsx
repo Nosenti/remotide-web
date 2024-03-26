@@ -20,14 +20,14 @@ function Header() {
       </div>
 
       <div className='right  py-1 flex flex-row'>
-        <div className=' mr-5'>
+        {/* <div className=' mr-5'>
           <Link
             to='/talent'
             className='inline-block px-6 py-3 bg-colorBrand500  text-white font-medium text-xs leading-tight uppercase rounded hover:bg-colorBrand700 focus:outline-none focus:ring-0 transition duration-150 ease-in-out'
           >
             Talent Board
           </Link>
-        </div>
+        </div> */}
         <div className=' mr-5'>
           <Link
             to='/product'
